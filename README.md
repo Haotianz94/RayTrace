@@ -12,6 +12,7 @@ A RayTracer for 2D Image Rendering
  * Highlight
  * Reflection
  * Refraction
+ 
 ###Enhanced Functions
  * Soft Shadow
  * Texture
