@@ -2,9 +2,9 @@
 A RayTracer for 2D Image Rendering
 
 ##Features
-*Used Phone's model
-*Used C++
-*Developed on Visual Studio 2012
+ * Used Phone's model
+ * Used C++
+ * Developed on Visual Studio 2012
 
 ##Accomplished Functions
 ###Basic Functions
