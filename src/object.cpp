@@ -297,7 +297,7 @@ void Scene::addPlane( Vec3 a_P1, Vec3 a_P2, Vec3 a_P3, Vec3 a_P4, Property* prop
 	_object[_objects++]->setProperty( proper );
 }
 
-void Scene::initScene2()
+void Scene::initScene0()
 {
 	_object = new Object*[300000];
 	_light = new Light*[10];
@@ -422,7 +422,7 @@ void Scene::initScene1()
 	std::cout<<"Kdtree build end"<<std::endl;
 }
 
-void Scene::initScene0()
+void Scene::initScene2()
 {
 	_object = new Object*[500];
 	_light = new Light*[10]; 
@@ -502,7 +502,7 @@ void Scene::initScene0()
 	std::cout<<"Kdtree build end"<<std::endl;
 }
 
-void Scene::initScene1()
+void Scene::initScene3()
 {
 	setExtend( Box( Vec3(-20,-20,-20), Vec3(40,50,40)) );
 	_object = new Object*[300000];
@@ -609,7 +609,7 @@ void Scene::initScene1()
 	std::cout<<"Kdtree build end"<<std::endl;
 }
 
-void Scene::initScene2()
+void Scene::initScene4()
 {
 	setExtend( Box( Vec3(-20,-20,-20), Vec3(40,50,40)) );
 	_object = new Object*[300000];
@@ -701,7 +701,7 @@ void Scene::initScene2()
 	std::cout<<"Kdtree build end"<<std::endl;
 }
 
-void Scene::initScene3()
+void Scene::initScene5()
 {
 	setExtend( Box( Vec3(-20,-20,-20), Vec3(40,50,40)) );
 	_object = new Object*[300000];
